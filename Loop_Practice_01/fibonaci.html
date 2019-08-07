@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let num = Number(prompt("Nhap so luong so fibonaci : "));
+    let n1 = 0, n2 = 1, n3;
+    for (let i = 0; i < num; i ++) {
+        n3 = n2 + n1;
+        document.write(n3 +" ");
+        n1 = n2;
+        n2 = n3;
+    }
+</script>
+</body>
+</html>
